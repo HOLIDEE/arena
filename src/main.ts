@@ -31,6 +31,8 @@ WA.onInit().then(() => {
 			position: "center"
 		});
 	});
+	
+	WA.room.area.onLeave('Cloud').subscribe(closeModal)
 
     WA.room.area.onEnter('clock').subscribe(() => {
         const today = new Date();
