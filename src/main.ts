@@ -22,6 +22,16 @@ WA.onInit().then(() => {
 		});	
 	});
 
+	WA.room.area.onEnter('Cloud').subscribe(() => {
+		WA.ui.modal.openModal({
+			title: "Cloud by HOLIDEE",
+			src: 'https://cloud.holidee.fr',
+			allowApi: true,
+			allow: "fullscreen",
+			position: "center"
+		});	
+	});
+
     WA.room.area.onEnter('clock').subscribe(() => {
         const today = new Date();
         const time = today.getHours() + ":" + today.getMinutes();

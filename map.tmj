@@ -510,15 +510,26 @@
                  "y":96.3333333333333
                 }, 
                 {
-                 "height":63,
+                 "height":64,
                  "id":20,
                  "name":"Moodle",
                  "rotation":0,
                  "type":"area",
                  "visible":true,
-                 "width":96,
-                 "x":800,
+                 "width":160,
+                 "x":768,
                  "y":96
+                }, 
+                {
+                 "height":64,
+                 "id":21,
+                 "name":"Cloud",
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":64,
+                 "x":192,
+                 "y":224
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -619,7 +630,7 @@
          "y":0
         }],
  "nextlayerid":63,
- "nextobjectid":21,
+ "nextobjectid":22,
  "orientation":"orthogonal",
  "properties":[
         {
