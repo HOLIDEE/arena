@@ -4,6 +4,7 @@ import { bootstrapExtra } from "@workadventure/scripting-api-extra";
 
 console.log('Script started successfully');
 
+let currentModal: any = undefined;
 let currentPopup: any = undefined;
 
 // Waiting for the API to be ready
@@ -23,7 +24,7 @@ WA.onInit().then(() => {
 	});
 
 	WA.room.area.onEnter('Cloud').subscribe(() => {
-				WA.ui.modal.openModal({
+			currentModal = WA.ui.modal.openModal({
 			title: "Cloud by Holidée",
 			src: 'https://backcloud.holidee.fr',
 			allowApi: true,
