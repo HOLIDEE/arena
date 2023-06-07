@@ -561,13 +561,13 @@
                  "y":96
                 }, 
                 {
-                 "height":64,
+                 "height":96,
                  "id":21,
                  "name":"Cloud",
                  "rotation":0,
                  "type":"area",
                  "visible":true,
-                 "width":64,
+                 "width":96,
                  "x":192,
                  "y":224
                 }],
