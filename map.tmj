@@ -564,6 +564,12 @@
                  "height":96,
                  "id":21,
                  "name":"Cloud",
+                 "properties":[
+                        {
+                         "name":"allowApi",
+                         "type":"bool",
+                         "value":true
+                        }],
                  "rotation":0,
                  "type":"area",
                  "visible":true,
