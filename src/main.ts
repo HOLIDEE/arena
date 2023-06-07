@@ -49,6 +49,13 @@ WA.onInit().then(() => {
 
 }).catch(e => console.error(e));
 
+function closeModal(){
+    if (currentModal !== undefined) {
+        currentModal.close();
+        currentModal = undefined;
+    }
+}
+
 function closePopup(){
     if (currentPopup !== undefined) {
         currentPopup.close();
