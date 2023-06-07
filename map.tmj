@@ -576,6 +576,40 @@
                  "width":96,
                  "x":192,
                  "y":224
+                }, 
+                {
+                 "height":64,
+                 "id":22,
+                 "name":"to-factory",
+                 "properties":[
+                        {
+                         "name":"exitUrl",
+                         "type":"string",
+                         "value":"https:\/\/meta.holidee.fr\/@\/HOLIDEE\/factory#from-arena"
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":32,
+                 "x":0,
+                 "y":512
+                }, 
+                {
+                 "height":64,
+                 "id":23,
+                 "name":"from-factory",
+                 "properties":[
+                        {
+                         "name":"start",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":32,
+                 "x":64,
+                 "y":512
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -676,7 +710,7 @@
          "y":0
         }],
  "nextlayerid":63,
- "nextobjectid":22,
+ "nextobjectid":24,
  "orientation":"orthogonal",
  "properties":[
         {
