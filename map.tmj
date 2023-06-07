@@ -510,38 +510,15 @@
                  "y":96.3333333333333
                 }, 
                 {
-                 "height":64,
-                 "id":18,
-                 "name":"to-conference",
-                 "properties":[
-                        {
-                         "name":"exitUrl",
-                         "type":"string",
-                         "value":"conference.tmj#from-office"
-                        }],
+                 "height":63,
+                 "id":20,
+                 "name":"Moodle",
                  "rotation":0,
                  "type":"area",
                  "visible":true,
-                 "width":32,
-                 "x":0,
-                 "y":512
-                }, 
-                {
-                 "height":32,
-                 "id":19,
-                 "name":"from-conference",
-                 "properties":[
-                        {
-                         "name":"start",
-                         "type":"bool",
-                         "value":true
-                        }],
-                 "rotation":0,
-                 "type":"area",
-                 "visible":true,
-                 "width":32,
-                 "x":64,
-                 "y":544
+                 "width":96,
+                 "x":800,
+                 "y":96
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -642,7 +619,7 @@
          "y":0
         }],
  "nextlayerid":63,
- "nextobjectid":20,
+ "nextobjectid":21,
  "orientation":"orthogonal",
  "properties":[
         {
