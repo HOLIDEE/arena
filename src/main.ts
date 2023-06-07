@@ -23,7 +23,13 @@ WA.onInit().then(() => {
 	});
 
 	WA.room.area.onEnter('Cloud').subscribe(() => {
-		WA.nav.openTab('https://cloud.holidee.fr/');
+				WA.ui.modal.openModal({
+			title: "Cloud by Holidée",
+			src: 'https://backcloud.holidee.fr',
+			allowApi: true,
+			allow: "fullscreen",
+			position: "center"
+		});
 	});
 
     WA.room.area.onEnter('clock').subscribe(() => {
