@@ -51,13 +51,6 @@ setTimeout(() => {
 
 }).catch(e => console.error(e));
 
-class ActionMessage {
-    /**
-     * Hides the message
-     */
-    remove() {};
-}
-
 function closePopup(){
     if (currentPopup !== undefined) {
         currentPopup.close();
