@@ -423,11 +423,6 @@
                  "name":"jitsiChillZone",
                  "properties":[
                         {
-                         "name":"focusable",
-                         "type":"bool",
-                         "value":true
-                        }, 
-                        {
                          "name":"jitsiNoPrefix",
                          "type":"bool",
                          "value":true
@@ -456,11 +451,6 @@
                          "name":"openWebsiteClosable",
                          "type":"bool",
                          "value":false
-                        }, 
-                        {
-                         "name":"zoom_margin",
-                         "type":"float",
-                         "value":1
                         }],
                  "rotation":0,
                  "type":"area",
@@ -492,11 +482,6 @@
                  "name":"jitsiMeetingRoom",
                  "properties":[
                         {
-                         "name":"focusable",
-                         "type":"bool",
-                         "value":true
-                        }, 
-                        {
                          "name":"jitsiNoPrefix",
                          "type":"bool",
                          "value":true
@@ -525,11 +510,6 @@
                          "name":"openWebsiteClosable",
                          "type":"bool",
                          "value":false
-                        }, 
-                        {
-                         "name":"zoom_margin",
-                         "type":"float",
-                         "value":1
                         }],
                  "rotation":0,
                  "type":"area",

@@ -26,7 +26,7 @@ WA.onInit().then(() => {
 	WA.room.area.onEnter('Cloud').subscribe(() => {
 			currentModal = WA.ui.modal.openModal({
 			title: "Cloud by Holidée",
-			src: 'https://backcloud.holidee.fr',
+			src: 'https://cloud.holidee.fr',
 			allowApi: true,
 			allow: "fullscreen",
 			position: "center"
