@@ -4,7 +4,6 @@ import { bootstrapExtra } from "@workadventure/scripting-api-extra";
 
 console.log('Script started successfully');
 
-let currentModal: any = undefined;
 let currentPopup: any = undefined;
 
 // Waiting for the API to be ready
@@ -14,17 +13,21 @@ WA.onInit().then(() => {
 
 // Action zone "visit"
 	WA.room.area.onEnter('Moodle').subscribe(() => {
-		WA.ui.modal.openModal({
-			title: "nxlvl arena",
-			src: 'https://ret.nxlvl.fr',
-			allowApi: true,
-			allow: "fullscreen",
-			position: "center"
-		});	
+		const triggerMessage = WA.ui.displayActionMessage({
+    message: "press 'space' to confirm",
+    callback: () => {
+        WA.chat.sendChatMessage("confirmed", "trigger message logic")
+    }
+});
+
+setTimeout(() => {
+    // later
+    triggerMessage.remove();
+}, 1000)	
 	});
 
 	WA.room.area.onEnter('Cloud').subscribe(() => {
-			currentModal = WA.ui.modal.openModal({
+			WA.ui.modal.openModal({
 			title: "Cloud by Holidée",
 			src: 'https://cloud.holidee.fr',
 			allowApi: true,
@@ -33,8 +36,6 @@ WA.onInit().then(() => {
 		});
 	});
 	
-	WA.room.area.onLeave('Cloud').subscribe(closeModal)
-
     WA.room.area.onEnter('clock').subscribe(() => {
         const today = new Date();
         const time = today.getHours() + ":" + today.getMinutes();
@@ -50,11 +51,11 @@ WA.onInit().then(() => {
 
 }).catch(e => console.error(e));
 
-function closeModal(){
-    if (currentModal !== undefined) {
-        currentModal.close();
-        currentModal = undefined;
-    }
+class ActionMessage {
+    /**
+     * Hides the message
+     */
+    remove() {};
 }
 
 function closePopup(){
