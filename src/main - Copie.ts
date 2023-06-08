@@ -33,23 +33,13 @@ setTimeout(() => {
 	});
 
 	WA.room.area.onEnter('Cloud').subscribe(() => {
-		const triggerMessage = WA.ui.displayActionMessage({
-    message: "press 'space' to confirm",
-    callback: () => {
-        WA.ui.modal.openModal({
+			WA.ui.modal.openModal({
 			title: "Cloud by Holidée",
-			src: 'https://cloud.holidee.fr.fr',
+			src: 'https://cloud.holidee.fr',
 			allowApi: true,
 			allow: "fullscreen",
 			position: "center"
 		});
-    }
-});
-
-setTimeout(() => {
-    // later
-    triggerMessage.remove();
-}, 1000)
 	});
 	
     WA.room.area.onEnter('clock').subscribe(() => {
