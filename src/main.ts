@@ -11,45 +11,25 @@ WA.onInit().then(() => {
     console.log('Scripting API ready');
     console.log('Player tags: ',WA.player.tags)
 
-// Action zone "visit"
+// Action zone "visit"	
 	WA.room.area.onEnter('Moodle').subscribe(() => {
-		const triggerMessage = WA.ui.displayActionMessage({
-    message: "press 'space' to confirm",
-    callback: () => {
-        WA.ui.modal.openModal({
+			WA.ui.modal.openModal({
 			title: "nxlvl arena",
 			src: 'https://ret.nxlvl.fr',
 			allowApi: true,
 			allow: "fullscreen",
 			position: "center"
 		});
-    }
-});
-
-setTimeout(() => {
-    // later
-    triggerMessage.remove();
-}, 1000)	
 	});
 
 	WA.room.area.onEnter('Cloud').subscribe(() => {
-		const triggerMessage = WA.ui.displayActionMessage({
-    message: "press 'space' to confirm",
-    callback: () => {
-        WA.ui.modal.openModal({
+			WA.ui.modal.openModal({
 			title: "Cloud by Holidée",
-			src: 'https://cloud.holidee.fr.fr',
+			src: 'https://cloud.holidee.fr',
 			allowApi: true,
 			allow: "fullscreen",
 			position: "center"
 		});
-    }
-});
-
-setTimeout(() => {
-    // later
-    triggerMessage.remove();
-}, 1000)
 	});
 	
     WA.room.area.onEnter('clock').subscribe(() => {
