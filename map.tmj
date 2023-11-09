@@ -193,7 +193,7 @@
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":"https:\/\/ret.nxlvl.fr"
+                         "value":"https:\/\/arena.nxlvl.fr\/course\/view.php?id=11"
                         }, 
                         {
                          "name":"openWebsiteTrigger",
@@ -572,16 +572,6 @@
                          "value":"team"
                         }, 
                         {
-                         "name":"jitsiTrigger",
-                         "type":"string",
-                         "value":"onaction"
-                        }, 
-                        {
-                         "name":"jitsiTriggerMessage",
-                         "type":"string",
-                         "value":"Tape 'Espace' pour rejoindre la visio"
-                        }, 
-                        {
                          "name":"openWebsiteClosable",
                          "type":"bool",
                          "value":false
@@ -631,16 +621,6 @@
                          "value":"team"
                         }, 
                         {
-                         "name":"jitsiTrigger",
-                         "type":"string",
-                         "value":"onaction"
-                        }, 
-                        {
-                         "name":"jitsiTriggerMessage",
-                         "type":"string",
-                         "value":"Tape 'Espace' pour rejoindre la visio"
-                        }, 
-                        {
                          "name":"openWebsiteClosable",
                          "type":"bool",
                          "value":false
@@ -662,23 +642,6 @@
                  "width":50.2727272727272,
                  "x":438.484848484849,
                  "y":96.3333333333333
-                }, 
-                {
-                 "height":64,
-                 "id":22,
-                 "name":"to-factory",
-                 "properties":[
-                        {
-                         "name":"exitUrl",
-                         "type":"string",
-                         "value":"https:\/\/meta.holidee.fr\/@\/HOLIDEE\/factory#from-arena"
-                        }],
-                 "rotation":0,
-                 "type":"area",
-                 "visible":true,
-                 "width":32,
-                 "x":0,
-                 "y":512
                 }, 
                 {
                  "height":64,
@@ -825,7 +788,7 @@
          "value":"src\/main.ts"
         }],
  "renderorder":"right-down",
- "tiledversion":"1.10.1",
+ "tiledversion":"1.10.2",
  "tileheight":32,
  "tilesets":[
         {
