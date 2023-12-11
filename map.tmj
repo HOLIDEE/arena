@@ -1031,7 +1031,7 @@
         {
          "columns":25,
          "firstgid":2968,
-         "image":"..\/guild\/tilesets\/WA_Room_Builder.png",
+         "image":"..\/arena\/tilesets\/WA_Room_Builder.png",
          "imageheight":1280,
          "imagewidth":800,
          "margin":0,
@@ -1044,7 +1044,7 @@
         {
          "columns":10,
          "firstgid":3968,
-         "image":"..\/guild\/tilesets\/WA_Miscellaneous.png",
+         "image":"..\/arena\/tilesets\/WA_Miscellaneous.png",
          "imageheight":352,
          "imagewidth":320,
          "margin":0,
@@ -1057,7 +1057,7 @@
         {
          "columns":10,
          "firstgid":4078,
-         "image":"..\/guild\/tilesets\/WA_Tables.png",
+         "image":"..\/arena\/tilesets\/WA_Tables.png",
          "imageheight":864,
          "imagewidth":320,
          "margin":0,
@@ -1070,7 +1070,7 @@
         {
          "columns":25,
          "firstgid":4348,
-         "image":"..\/guild\/tilesets\/WA_Exterior.png",
+         "image":"..\/arena\/tilesets\/WA_Exterior.png",
          "imageheight":1088,
          "imagewidth":800,
          "margin":0,
@@ -1083,7 +1083,7 @@
         {
          "columns":12,
          "firstgid":5198,
-         "image":"..\/guild\/tilesets\/WA_Other_Furniture.png",
+         "image":"..\/arena\/tilesets\/WA_Other_Furniture.png",
          "imageheight":416,
          "imagewidth":384,
          "margin":0,
@@ -1096,7 +1096,7 @@
         {
          "columns":13,
          "firstgid":5354,
-         "image":"..\/guild\/tilesets\/WA_Seats.png",
+         "image":"..\/arena\/tilesets\/WA_Seats.png",
          "imageheight":448,
          "imagewidth":416,
          "margin":0,
@@ -1109,7 +1109,7 @@
         {
          "columns":12,
          "firstgid":5536,
-         "image":"..\/guild\/tilesets\/WA_Decoration.png",
+         "image":"..\/arena\/tilesets\/WA_Decoration.png",
          "imageheight":256,
          "imagewidth":384,
          "margin":0,
