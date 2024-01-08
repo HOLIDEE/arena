@@ -35,6 +35,9 @@ WA.onInit().then(() => {
     WA.room.area.onEnter('clock').subscribe(() => {
         const today = new Date();
         const time = today.getHours() + ":" + today.getMinutes();
+        const date = today.toDateString(); // Récupère la date sous forme de chaîne.
+currentPopup = WA.ui.openPopup("clockPopup", "It's " + time + "\n" + date, []); // Utilise \n pour insérer une nouvelle ligne.
+
         currentPopup = WA.ui.openPopup("clockPopup", "It's " + time, []);
     })
 
