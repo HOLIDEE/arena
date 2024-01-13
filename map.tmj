@@ -182,7 +182,7 @@
                         {
                          "name":"jitsiRoom",
                          "type":"string",
-                         "value":"Nxlvl Arena Conference"
+                         "value":"Nxlvl-Arena-Conference"
                         }, 
                         {
                          "name":"jitsiRoomAdminTag",
@@ -261,7 +261,7 @@
                         {
                          "name":"jitsiRoom",
                          "type":"string",
-                         "value":"NxlvlArenaFormateurs"
+                         "value":"Nxlvl-Arena-Formateurs"
                         }, 
                         {
                          "name":"jitsiRoomAdminTag",
@@ -340,7 +340,7 @@
                         {
                          "name":"jitsiRoom",
                          "type":"string",
-                         "value":"NxlvlArenaSalle1"
+                         "value":"Nxlvl-Arena-Salle1"
                         }, 
                         {
                          "name":"jitsiRoomAdminTag",
@@ -419,7 +419,7 @@
                         {
                          "name":"jitsiRoom",
                          "type":"string",
-                         "value":"NxlvlArenaSalle2"
+                         "value":"Nxlvl-Arena-Salle2"
                         }, 
                         {
                          "name":"jitsiRoomAdminTag",
@@ -498,7 +498,7 @@
                         {
                          "name":"jitsiRoom",
                          "type":"string",
-                         "value":"NxlvlArenaSalle3"
+                         "value":"Nxlvl-Arena-Salle3"
                         }, 
                         {
                          "name":"jitsiRoomAdminTag",
