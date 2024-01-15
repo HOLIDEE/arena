@@ -1640,9 +1640,9 @@
          "name":"floorLayer",
          "objects":[
                 {
-                 "height":64,
+                 "height":32,
                  "id":23,
-                 "name":"from-factory",
+                 "name":"center",
                  "properties":[
                         {
                          "name":"start",
@@ -1652,19 +1652,19 @@
                  "rotation":0,
                  "type":"area",
                  "visible":true,
-                 "width":96,
-                 "x":1504,
-                 "y":928
+                 "width":32,
+                 "x":1536,
+                 "y":960
                 }, 
                 {
-                 "height":96,
+                 "height":64,
                  "id":25,
-                 "name":"to-factory",
+                 "name":"to-factory-center",
                  "properties":[
                         {
                          "name":"exitUrl",
                          "type":"string",
-                         "value":"https:\/\/meta.holidee.fr\/@\/HOLIDEE\/factory#from-casting"
+                         "value":"https:\/\/meta.holidee.fr\/@\/HOLIDEE\/factory#center"
                         }],
                  "rotation":0,
                  "type":"area",
@@ -1672,6 +1672,74 @@
                  "width":96,
                  "x":1504,
                  "y":1056
+                }, 
+                {
+                 "height":224,
+                 "id":26,
+                 "name":"to-factory-right",
+                 "properties":[
+                        {
+                         "name":"exitUrl",
+                         "type":"string",
+                         "value":"https:\/\/meta.holidee.fr\/@\/HOLIDEE\/factory#right"
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":64,
+                 "x":3232,
+                 "y":896
+                }, 
+                {
+                 "height":224,
+                 "id":27,
+                 "name":"to-factory-left",
+                 "properties":[
+                        {
+                         "name":"exitUrl",
+                         "type":"string",
+                         "value":"https:\/\/meta.holidee.fr\/@\/HOLIDEE\/factory#left"
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":64,
+                 "x":576,
+                 "y":896
+                }, 
+                {
+                 "height":32,
+                 "id":28,
+                 "name":"left",
+                 "properties":[
+                        {
+                         "name":"start",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":32,
+                 "x":644.333333333333,
+                 "y":929.666666666667
+                }, 
+                {
+                 "height":32,
+                 "id":29,
+                 "name":"right",
+                 "properties":[
+                        {
+                         "name":"start",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":32,
+                 "x":3168,
+                 "y":928
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -1980,7 +2048,7 @@
          "y":0
         }],
  "nextlayerid":111,
- "nextobjectid":26,
+ "nextobjectid":30,
  "orientation":"orthogonal",
  "properties":[
         {
