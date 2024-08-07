@@ -489,27 +489,6 @@
                  "id":113,
                  "name":"FormateursChill",
                  "opacity":1,
-                 "properties":[
-                        {
-                         "name":"jitsiNoPrefix",
-                         "type":"bool",
-                         "value":true
-                        }, 
-                        {
-                         "name":"jitsiRoom",
-                         "type":"string",
-                         "value":"Nxlvl-Arena-Formateurs-Chill"
-                        }, 
-                        {
-                         "name":"jitsiRoomAdminTag",
-                         "type":"string",
-                         "value":"team"
-                        }, 
-                        {
-                         "name":"openWebsiteClosable",
-                         "type":"bool",
-                         "value":false
-                        }],
                  "type":"tilelayer",
                  "visible":true,
                  "width":131,
